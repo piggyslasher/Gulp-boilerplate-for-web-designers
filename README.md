@@ -1,9 +1,11 @@
 # Gulp boilerplate for web designers
 
+[This is a fork of Gulp-boilerplate-for-web-designers by tsevdos](https://github.com/tsevdos/Gulp-boilerplate-for-web-designers)
+
 **Gulp boilerplate for web designers** provides directory and file structure to aid web-designers kickstart their next project. It will help you develop and deploy any html-based (and more) templates. Some out of the box features :
 
 - OOCSS and [SMACSS (Scalable and Modular Architecture for CSS) ](http://smacss.com/) ready infrastructure
-- Compile Sass files
+- Compile LESS files
 - Autoprefix styles (you only need to write the web-standard version)
 - [Compass](http://compass-style.org/) support
 - Compiles and lints Coffee scripts files
