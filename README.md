@@ -26,7 +26,7 @@ Follow the [Getting Started with Gulp](https://github.com/gulpjs/gulp/blob/maste
 5. Git clone (`git@github.com:tsevdos/Gulp-boilerplate-for-web-designers.git`) or download the zip from [https://github.com/tsevdos/Gulp-boilerplate-for-web-designers](https://github.com/tsevdos/Gulp-boilerplate-for-web-designers)
 7. Install Gulp and required gulp tasks `npm install`
 8a. Run `gulp` and enjoy
-8b. To simply preview the latest production code in the browser, use `gulp serve-dist`.
+8b. To simply preview the latest production code in the browser, use `gulp serve-dist`. You would need to do a `gulp` or individual build tasks.
 
 ## File structure
 
