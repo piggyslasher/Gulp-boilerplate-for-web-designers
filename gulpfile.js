@@ -39,7 +39,7 @@ var console = require('better-console');
 
 
 var paths = {
-	app: './src',
+	app: './app',
 	dest: './dist'
 };
 
