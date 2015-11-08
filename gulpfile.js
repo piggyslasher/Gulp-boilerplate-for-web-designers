@@ -22,9 +22,6 @@ var autoprefixer = require('gulp-autoprefixer');
 var minifycss = require('gulp-minify-css');
 var rename = require('gulp-rename');
 var clean = require('gulp-clean');
-// var livereload   = require('gulp-livereload');
-// var lr           = require('tiny-lr');
-// var server       = lr();
 var coffee = require('gulp-coffee');
 var coffeelint = require('gulp-coffeelint');
 var jshint = require('gulp-jshint');
@@ -36,15 +33,14 @@ var jade = require('gulp-jade');
 var prettify = require('gulp-html-prettify');
 var less = require('gulp-less');
 var path = require('path');
-// var lr_server = require('gulp-server-livereload');
 var connect = require('gulp-connect');
 var debug = require('gulp-debug');
 var console = require('better-console');
 
 
 var paths = {
-	app: './app',
-	dest: './public'
+	app: './src',
+	dest: './dist'
 };
 
 // Loads plugins 
@@ -212,7 +208,7 @@ gulp.task('connect', ['watch'], function() {
 
 gulp.task('serve-dist', function() {
 	connect.server({
-		root: 'public',
+		root: paths.dest,
 		port: 8001,
 		livereload: true
 	});
