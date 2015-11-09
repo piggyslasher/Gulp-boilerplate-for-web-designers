@@ -4,7 +4,7 @@
 
 **Gulp / LESS / Jade / LiveReload boilerplate for web designers** provides directory and file structure to aid web-designers kickstart their next project. It will help you develop and deploy any html-based (and more) templates. Some out of the box features :
 
-- OOCSS and [SMACSS (Scalable and Modular Architecture for CSS) ](http://smacss.com/) ready infrastructure
+- OOCSS and [SMACSS (Scalable and Modular Architecture for CSS)](http://smacss.com/) ready infrastructure
 - Compile LESS files
 - Autoprefix styles (you only need to write the web-standard version)
 - Compiles and lints Coffee scripts files
