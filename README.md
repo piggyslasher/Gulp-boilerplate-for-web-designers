@@ -36,9 +36,9 @@ Your **development environment** is in the **app directory** - you do all the wo
 
 You can run the below tasks.
 
-1. `gulp` (default task) : Creates a `public` directory with all the optimized files (read **File structure** section for more details).
+1. `gulp` (default task) : Creates a `dist` directory with all the optimized files (read **File structure** section for more details).
 2. `gulp serve` : Probably the most usable task. Just run this task and work elegantly with live-reload and all the cool features listed above.
-3. `gulp serve-dist` : Serves your `dist` production folder. LiveReload won't work as files here don't need to be watched. You should do your development in the `app` folder.
+3. `gulp serve-dist` : Serves your `dist` production folder. LiveReload works as well, but you probably just want to use this to test the final product before deployment.
 4. `gulp styles` : This task compiles all the Sass files and autoprefixes. After that it saves the generated CSS files expanded into the `development` directory and the minified version into the public directory.
 5. `gulp coffee` : This task lints and compiles your coffee script files (you must include them into the `js` directory).
 6. `gulp lintscripts` : This task lints all javascripts files except from those located under the `vendor` directory.
