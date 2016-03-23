@@ -21,7 +21,7 @@
     "gulp-imagemin": "*",
     "gulp-jade": "*",
     "gulp-jshint": "*",
-    "gulp-less": "^3.0.3",
+    "gulp-ruby-sass": "*",
     "gulp-livereload": "*",
     "gulp-load-plugins": "*",
     "gulp-minify-css": "*",

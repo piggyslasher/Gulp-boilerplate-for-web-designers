@@ -31,7 +31,7 @@ var uglify = require('gulp-uglify');
 var cache = require('gulp-cache');
 var jade = require('gulp-jade');
 var prettify = require('gulp-html-prettify');
-var less = require('gulp-less');
+var sass = require('gulp-ruby-sass');
 var path = require('path');
 var connect = require('gulp-connect');
 var debug = require('gulp-debug');
@@ -47,20 +47,30 @@ var paths = {
 // var gulpLoadPlugins = require("gulp-load-plugins");
 // var plugins = gulpLoadPlugins();
 
-gulp.task('styles', function() {
-	return gulp.src(paths.app + '/less/main.less')
-		.pipe(less({
-			paths: [path.join(__dirname, 'less', 'includes')]
-		}))
-		.pipe(gulp.dest(paths.app + '/css'))
-		.pipe(connect.reload())
+gulp.task('styles', function () {
+	return sass([
+			paths.app + '/scss/**/*.scss',
+			'!' + paths.app + '/scss/**/_*.scss'
+		], {
+			compass : true,
+			style : 'expanded'
+		})
 		.pipe(autoprefixer({
-			browsers: ['last 2 versions'],
+			browsers: [
+				'> 1%',
+				'last 2 versions',
+				'firefox >= 4',
+				'safari 7',
+				'safari 8',
+				'IE 8',
+				'IE 9',
+				'IE 10',
+				'IE 11'
+			],
 			cascade: false
 		}))
-		.pipe(debug({
-			title: '*.less files changed:'
-		}))
+		.pipe(gulp.dest(paths.app + '/css'))
+		.pipe(rename({suffix: '.min'}))
 		.pipe(minifycss())
 		.pipe(gulp.dest(paths.dest + '/css'));
 });
