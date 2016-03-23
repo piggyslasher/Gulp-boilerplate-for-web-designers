@@ -1,11 +1,11 @@
 # Gulp / LESS / Jade / LiveReload boilerplate for web designers
 
-[This is a fork of Gulp-boilerplate-for-web-designers by tsevdos](https://github.com/tsevdos/Gulp-boilerplate-for-web-designers) but I've included `gulp-connect` and LESS stylesheet support. The LiveReload just works and there's a built in static server so just start coding. LiveReload browser extension is not needed.
+[This is a fork of Gulp-boilerplate-for-web-designers by tsevdos](https://github.com/tsevdos/Gulp-boilerplate-for-web-designers) but I've included `gulp-connect` and SASS stylesheet support. The LiveReload just works and there's a built in static server so just start coding. LiveReload browser extension is not needed.
 
-**Gulp / LESS / Jade / LiveReload boilerplate for web designers** provides directory and file structure to aid web-designers kickstart their next project. It will help you develop and deploy any html-based (and more) templates. Some out of the box features :
+**Gulp / SASS / Jade / LiveReload boilerplate for web designers** provides directory and file structure to aid web-designers kickstart their next project. It will help you develop and deploy any html-based (and more) templates. Some out of the box features :
 
 - OOCSS and [SMACSS (Scalable and Modular Architecture for CSS)](http://smacss.com/) ready infrastructure
-- Compile LESS files
+- Compile SASS files
 - Autoprefix styles (you only need to write the web-standard version)
 - Compiles and lints Coffee scripts files
 - JsLinter
