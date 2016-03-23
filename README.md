@@ -1,4 +1,4 @@
-# Gulp / LESS / Jade / compass-mixins / LiveReload boilerplate for web designers
+# Gulp / SASS / Jade / compass-mixins / LiveReload boilerplate for web designers
 
 NEED to import /lib sass components to main sass file, right?
 
