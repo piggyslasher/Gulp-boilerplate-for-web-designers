@@ -1,0 +1,15 @@
+[submodule "app/sass/boilerplate-components/normalize"]
+	path = app/sass/boilerplate-components/normalize
+	url = https://github.com/JohnAlbin/normalize-scss.git
+[submodule "app/sass/boilerplate-components/compass-mixins"]
+	path = app/sass/boilerplate-components/compass-mixins
+	url = https://github.com/Igosuki/compass-mixins
+[submodule "app/sass/boilerplate-components/susy"]
+	path = app/sass/boilerplate-components/susy
+	url = https://github.com/oddbird/susy.git
+[submodule "app/sass/boilerplate-components/animate-sass"]
+	path = app/sass/boilerplate-components/animate-sass
+	url = https://github.com/tgdev/animate-sass.git
+[submodule "app/js/boilerplate-components/modernizr"]
+	path = app/js/boilerplate-components/modernizr
+	url = https://github.com/Modernizr/Modernizr.git
