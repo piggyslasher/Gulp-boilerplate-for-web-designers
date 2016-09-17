@@ -1,11 +1,4 @@
-# Gulp / SASS / Jade / compass-mixins / LiveReload boilerplate for web designers
-
-NEED to import /lib sass components to main sass file, right?
-
-added https://github.com/Igosuki/compass-mixins
-added susy 2.212
-scss resources are added to app/scss
-
+# Gulp: SASS / Jade / Compass-Mixins / LiveReload boilerplate for Front-End Web Designers
 
 [This is a fork of Gulp-boilerplate-for-web-designers by tsevdos](https://github.com/tsevdos/Gulp-boilerplate-for-web-designers) but I've included `gulp-connect` and SASS stylesheet support. The LiveReload just works and there's a built in static server so just start coding. LiveReload browser extension is not needed.
 
@@ -55,6 +48,10 @@ You can run the below tasks.
 10. `gulp markup` : This task will pretify your html files.
 11. `gulp clean` : This support task cleans (deletes all the contents of) the `public` directory in order to prepare it for the `build` (default task).
 
-## TODO:
+##Recent Changes
+- added https://github.com/Igosuki/compass-mixins Compass Mixins for libsass
+- added susy 2.212
+- scss resources are added to app/scss
 
+## TODO:
 - ECMAScript6 support. Soon!
