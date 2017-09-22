@@ -29,7 +29,7 @@ var concat = require('gulp-concat');
 var imagemin = require('gulp-imagemin');
 var uglify = require('gulp-uglify');
 var cache = require('gulp-cache');
-var jade = require('gulp-jade');
+var pug = require('gulp-pug');
 var prettify = require('gulp-html-prettify');
 var sass = require('gulp-sass');
 var path = require('path');
@@ -137,18 +137,18 @@ gulp.task('images', function() {
 		.pipe(gulp.dest(paths.dest + '/img'));
 });
 
-gulp.task('jade', function() {
-	return gulp.src(paths.app + '/**/*.jade')
-		.pipe(jade({
+gulp.task('pug', function() {
+	return gulp.src(paths.app + '/**/*.pug')
+		.pipe(pug({
 			pretty: true
 		}))
 		.pipe(debug({
-			title: 'jaded:'
+			title: 'pugged:'
 		}))
 		.pipe(gulp.dest(paths.app));
 });
 
-gulp.task('markup', ['jade'], function() {
+gulp.task('markup', ['pug'], function() {
 	return gulp.src(paths.app + '/**/*.html')
 		.pipe(prettify({
 			indent_char: ' ',
@@ -203,7 +203,7 @@ gulp.task('watch', function(){
 
 	gulp.watch([
 		// paths.app + '/**/*.html',
-		paths.app + '/**/*.jade'
+		paths.app + '/**/*.pug'
 	], function() {
 		gulp.run('markup');
 	});

@@ -1,5 +1,10 @@
 # Gulp: SASS / Jade / Compass-Mixins / LiveReload boilerplate for Front-End Web Designers
 
+If you have any issues after NPM INSTALL, also try npm install js-hint
+
+Sorry this hasn't been updated in a sec!
+
+
 [This is a fork of Gulp-boilerplate-for-web-designers by tsevdos](https://github.com/tsevdos/Gulp-boilerplate-for-web-designers) but I've included `gulp-connect` and SASS stylesheet support. The LiveReload just works and there's a built in static server so just start coding. LiveReload browser extension is not needed.
 
 **Gulp / SASS / Jade / LiveReload boilerplate for web designers** provides directory and file structure to aid web-designers kickstart their next project. It will help you develop and deploy any html-based (and more) templates. Some out of the box features :
