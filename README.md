@@ -1,3 +1,5 @@
+***NOTE**: This repo is unmaintained*. I just merge pull-requests for this now and have moved happily to webpack.
+
 # Gulp: SASS / Jade / Compass-Mixins / LiveReload boilerplate for Front-End Web Designers
 
 If you have any issues after NPM INSTALL, also try npm install js-hint
