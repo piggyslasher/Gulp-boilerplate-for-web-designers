@@ -1,11 +1,16 @@
-# Gulp / LESS / Jade / LiveReload boilerplate for web designers
+# Gulp: SASS / Jade / Compass-Mixins / LiveReload boilerplate for Front-End Web Designers
 
-[This is a fork of Gulp-boilerplate-for-web-designers by tsevdos](https://github.com/tsevdos/Gulp-boilerplate-for-web-designers) but I've included `gulp-connect` and LESS stylesheet support. The LiveReload just works and there's a built in static server so just start coding. LiveReload browser extension is not needed.
+If you have any issues after NPM INSTALL, also try npm install js-hint
 
-**Gulp / LESS / Jade / LiveReload boilerplate for web designers** provides directory and file structure to aid web-designers kickstart their next project. It will help you develop and deploy any html-based (and more) templates. Some out of the box features :
+Sorry this hasn't been updated in a sec!
+
+
+[This is a fork of Gulp-boilerplate-for-web-designers by tsevdos](https://github.com/tsevdos/Gulp-boilerplate-for-web-designers) but I've included `gulp-connect` and SASS stylesheet support. The LiveReload just works and there's a built in static server so just start coding. LiveReload browser extension is not needed.
+
+**Gulp / SASS / Jade / LiveReload boilerplate for web designers** provides directory and file structure to aid web-designers kickstart their next project. It will help you develop and deploy any html-based (and more) templates. Some out of the box features :
 
 - OOCSS and [SMACSS (Scalable and Modular Architecture for CSS)](http://smacss.com/) ready infrastructure
-- Compile LESS files
+- Compile SASS files
 - Autoprefix styles (you only need to write the web-standard version)
 - Compiles and lints Coffee scripts files
 - JsLinter
@@ -48,6 +53,10 @@ You can run the below tasks.
 10. `gulp markup` : This task will pretify your html files.
 11. `gulp clean` : This support task cleans (deletes all the contents of) the `public` directory in order to prepare it for the `build` (default task).
 
-## TODO:
+##Recent Changes
+- added https://github.com/Igosuki/compass-mixins Compass Mixins for libsass
+- added susy 2.212
+- scss resources are added to app/scss
 
+## TODO:
 - ECMAScript6 support. Soon!
